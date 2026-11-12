@@ -1,10 +1,11 @@
 # RTLPlayground for Home Assistant
 
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aalaei&repository=ha-rtlplayground)
+
 A custom integration for switches running the [RTLPlayground](https://github.com/aalaei) firmware
 (ZoeRax HG0402XG V1.1 and other devices with the same JSON API).
 
-The dashboard card is a separate HACS component: [ha-rtlplayground-dashboard](https://github.com/aalaei/ha-rtlplayground-dashboard).
-
+The dashboard card is a separate component: [ha-rtlplayground-dashboard](https://github.com/aalaei/ha-rtlplayground-dashboard).
 ## What it does
 
 - Config flow with host and password. Reauth when the password changes. A MAC check stops a
@@ -23,11 +24,16 @@ Not built yet: per-port enable/disable of the switch.
 PoE is not part of this integration. The PoE data comes from the ESPHome PoE device that is
 already in Home Assistant, and the dashboard reads it.
 
-## Install (HACS)
+## Install
 
-1. HACS → Integrations → ⋮ → Custom repositories → add `https://github.com/aalaei/ha-rtlplayground`, category **Integration**.
+**Home Assistant 2026.11 and later:** HACS is built into Home Assistant as **Marketplace**
+(Settings → Marketplace). Use the blue button above, or:
+
+1. Settings → Marketplace → ⋮ → Custom repositories, and add `https://github.com/aalaei/ha-rtlplayground` as an **Integration**.
 2. Install "RTLPlayground" and restart Home Assistant.
 3. Settings → Devices & services → Add integration → RTLPlayground. Enter the switch address and password.
+
+**Older versions:** use HACS (HACS → Integrations → ⋮ → Custom repositories) with the same repository.
 
 ## Develop
 
