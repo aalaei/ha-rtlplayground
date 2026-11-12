@@ -2,7 +2,7 @@
 
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aalaei&repository=ha-rtlplayground)
 
-A custom integration for switches running the [RTLPlayground](https://github.com/aalaei) firmware
+A custom integration for switches running the RTLPlayground firmware
 (ZoeRax HG0402XG V1.1 and other devices with the same JSON API).
 
 The dashboard card is a separate component: [ha-rtlplayground-dashboard](https://github.com/aalaei/ha-rtlplayground-dashboard).
