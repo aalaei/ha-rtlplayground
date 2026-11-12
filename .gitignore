@@ -1,0 +1,8 @@
+# Site values: real IP, passwords, MACs, captures from the switch
+local-information/
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/

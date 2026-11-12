@@ -1,0 +1,76 @@
+[
+  {
+    "port": 5,
+    "name": "",
+    "isSFP": true,
+    "enabled": false,
+    "mtu": "0x3fff"
+  },
+  {
+    "port": 1,
+    "name": "",
+    "isSFP": false,
+    "enabled": true,
+    "adv": [
+      "2.5G",
+      "1G",
+      "100M-FD",
+      "100M-HD",
+      "10M-FD",
+      "10M-HD"
+    ],
+    "mtu": "0x3fff"
+  },
+  {
+    "port": 2,
+    "name": "",
+    "isSFP": false,
+    "enabled": true,
+    "adv": [
+      "2.5G",
+      "1G",
+      "100M-FD",
+      "100M-HD",
+      "10M-FD",
+      "10M-HD"
+    ],
+    "mtu": "0x3fff"
+  },
+  {
+    "port": 3,
+    "name": "",
+    "isSFP": false,
+    "enabled": true,
+    "adv": [
+      "2.5G",
+      "1G",
+      "100M-FD",
+      "100M-HD",
+      "10M-FD",
+      "10M-HD"
+    ],
+    "mtu": "0x3fff"
+  },
+  {
+    "port": 4,
+    "name": "",
+    "isSFP": false,
+    "enabled": true,
+    "adv": [
+      "2.5G",
+      "1G",
+      "100M-FD",
+      "100M-HD",
+      "10M-FD",
+      "10M-HD"
+    ],
+    "mtu": "0x3fff"
+  },
+  {
+    "port": 6,
+    "name": "",
+    "isSFP": true,
+    "enabled": false,
+    "mtu": "0x3fff"
+  }
+]

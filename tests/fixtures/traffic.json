@@ -1,0 +1,56 @@
+[
+  {
+    "port": 5,
+    "link": "DOWN",
+    "txG": "0x0",
+    "txB": "0x0",
+    "rxG": "0x0",
+    "rxB": "0x0",
+    "macs": "0x0"
+  },
+  {
+    "port": 1,
+    "link": "1000M",
+    "txG": "0x83f9",
+    "txB": "0x0",
+    "rxG": "0x4290",
+    "rxB": "0x0",
+    "macs": "0x4"
+  },
+  {
+    "port": 2,
+    "link": "1000M",
+    "txG": "0x5f2c",
+    "txB": "0x0",
+    "rxG": "0x30c9",
+    "rxB": "0x0",
+    "macs": "0x3"
+  },
+  {
+    "port": 3,
+    "link": "DOWN",
+    "txG": "0x0",
+    "txB": "0x0",
+    "rxG": "0x0",
+    "rxB": "0x0",
+    "macs": "0x0"
+  },
+  {
+    "port": 4,
+    "link": "2.5G",
+    "txG": "0x708a",
+    "txB": "0x0",
+    "rxG": "0xa5da",
+    "rxB": "0x0",
+    "macs": "0x10"
+  },
+  {
+    "port": 6,
+    "link": "DOWN",
+    "txG": "0x0",
+    "txB": "0x0",
+    "rxG": "0x0",
+    "rxB": "0x0",
+    "macs": "0x0"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "host": "Host (IP address or name)",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "description": "The password for the switch was rejected. Enter the current password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "The switch did not answer. Check the address and the network.",
+      "invalid_auth": "The password was rejected.",
+      "invalid_response": "The switch answered, but not with the expected data. Is this an RTLPlayground firmware?"
+    },
+    "abort": {
+      "already_configured": "This switch is already configured.",
+      "wrong_device": "This is a different switch than the one configured. Remove the entry and add the new switch instead."
+    }
+  }
+}

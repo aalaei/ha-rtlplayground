@@ -1,0 +1,19 @@
+{
+  "ip_address": "192.0.2.10",
+  "ip_gateway": "192.0.2.1",
+  "ip_netmask": "255.255.255.0",
+  "syslog_server": "0.0.0.0:514",
+  "session_timeout": 3600,
+  "ip_source": "static",
+  "mac_address": "02:00:00:00:00:01",
+  "hostname": "rtlplayground-test",
+  "sw_ver": "v0.1.0-eff1c55-dirty",
+  "build_date": "2026-11-11 16:08:42",
+  "uptime": "0x000004d6",
+  "hw_ver": "ZoeRax HG0402XG",
+  "pcb_ver": "HG0402XG_V1_1",
+  "chip_temp": "75.0 C",
+  "flash_size": "1 MB",
+  "sfp_slot_0": "",
+  "sfp_slot_1": ""
+}
